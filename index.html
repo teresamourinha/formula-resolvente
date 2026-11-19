@@ -9,6 +9,8 @@
     let a = Number(prompt("Valor de a:"));
     let b = Number(prompt("Valor de b:"));
     let c = Number(prompt("Valor de c:"));
+    if(a===0){alert("a tem de ser diferente de 0")}
+       else{
     let delta = b * b - 4 * a * c;
     if (delta >= 0) {
       let x1 = (-b + Math.sqrt(delta)) / (2 * a);
@@ -17,6 +19,8 @@
     } else {
       alert("Não existem raízes reais.");
     }
+       }
   </script>
 </body>
 </html>
+
